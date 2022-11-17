@@ -1,0 +1,20 @@
+{
+  "name": "chatroom-tut",
+  "version": "1.0.0",
+  "description": "chat in different rooms!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dorcas",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "qs": "^6.11.0",
+    "redis": "^4.5.0",
+    "socket.io": "^4.5.3"
+  }
+}

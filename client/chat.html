@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <script src="public/js/index.js" type="module"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <header class="chat-header">
+        <h1><i class="fas fa-smile"></i> ChatHouse</h1>
+        <a id="leave-btn" class="btn">Leave Room</a>
+      </header>
+      <main class="chat-main">
+        <div class="chat-side-bar">
+          <h3><i class="fas fa-comments"></i> Room Name:</h3>
+          <h2 id="room-name"></h2>
+          <h3><i class="fas fa-users"></i> Users</h3>
+          <ul id="users"></ul>
+        </div>
+        <div class="chat-messages"></div>
+      </main>
+
+      <div class="chat-form-container">
+        <form id="chat-form">
+          <input
+            type="text"
+            id="msg"
+            placeholder="Enter Message"
+            required
+            autocomplete="off"
+          />
+          <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="text"></div>
+
+
+    <!--script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js"
+      integrity="sha512-/l6vieC+YxaZywUhmqs++8uF9DeMvJE61ua5g+UK0TuHZ4TkTgB1Gm1n0NiA86uEOM9JJ6JUwyR0hboKO0fCng=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script-->
+
+  </body>
+</html>
